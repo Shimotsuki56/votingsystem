@@ -1,0 +1,65 @@
+
+.card{
+    
+    
+    background-color: #97f3ffb5 !important;
+    /* blanched almond */
+    border-radius: 30px !important;
+    width: 98% !important;
+    height: 98% !important;
+    
+}
+
+.card-body{
+    display: grid;
+    grid-template-rows: 2.3fr 0.5fr;
+    padding: 1rem 0.2rem!important;
+    text-align: center;
+}
+.flexcent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card img{
+    height: 110px !important;
+    width: 47% !important;
+    border-radius: 20px;
+    margin-top: 3%;
+    
+}
+
+.quote{
+    font-family: 'Spirax', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+    color: #5f4a4a
+}
+
+#pin{
+    position: absolute;
+    height: 30px !important;
+    width: 30px !important;
+    top: 0%;
+    right: 1%;
+}
+
+
+@media(max-width:720px){
+    .quote{
+        font-size: 1.1rem!important;
+    }
+}
+
+
+@media(max-width:500px){
+    .card img{
+        height: 83px!important;
+    }
+
+    
+}

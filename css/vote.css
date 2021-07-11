@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:1400px){
+    .candidates, .userProfile{
+    max-width: 1600px;}
+    
+}
+
+.whole{
+    
+    /* width: 96vw !important; */
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/background1.jpg') !important;
+    width: 100%;
+    
+    
+    
+}
+
+.btn-primary{
+    background-color: rgb(0, 2, 107) !important;
+    border: none;
+}
+
+.candidates{
+
+    height: auto;
+    width:54%;
+    margin: 30px 8px;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  
+
+}
+
+.userProfile{
+    height: 50%;
+    width: 38%;
+    
+    margin: 30px 8px;
+    margin-bottom: 0%;
+}
+
+table{
+   
+    /* border: 2px solid rgb(0, 0, 0)!important; */
+    background-color: #ebebeb;
+    padding: 10px;
+    
+    margin-top: 2%;
+    height: 78%;
+    
+    
+}
+thead{
+    text-align:center;
+}
+
+tbody{
+    text-align: center;
+}
+
+
+
+
+
+.card{
+    
+    
+    background-color: #97f3ffb5 !important;
+    border-radius: 30px !important;
+    width: 98% !important;
+    height: 98% !important;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+.flexcent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userProfile .flexcent img{
+    
+    height:100px;
+    width:100px;
+    margin-top: 2%;
+
+}
+
+.card img{
+    height: 110px !important;
+    width: 47% !important;
+    border-radius: 20px;
+    margin-top: 3%;
+    
+}
+
+.card-body{
+    display: grid;
+    grid-template-rows: 2.3fr 0.5fr;
+    padding: 1rem 0.2rem!important;
+}
+
+.bottom{
+    margin-top: 2%;
+}
+
+.quote{
+    font-family: 'Spirax', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+    color: #5f4a4a
+}
+
+#pin{
+    position: absolute;
+    height: 30px !important;
+    width: 30px !important;
+    top: 0%;
+    right: 1%;
+}
+
+
+
+/* .bottom{
+    display:block;
+    margin-top:2%;
+    content:" ";
+    position:absolute;
+    bottom:1%;
+    
+} */
+
+/* .bottom .btn{
+    position:relative;
+    bottom:1%;
+} */
+
+@media(max-width:848px){
+    .whole{
+        flex-direction: column-reverse;
+        
+        margin: auto;
+    }
+    
+    .candidates{
+        width: auto;
+    }
+
+    .userProfile{
+        width: auto;
+    }
+
+    
+}
+
+
+@media(max-width:720px){
+    .quote{
+        font-size: 1.1rem!important;
+    }
+}
+
+@media(max-width:510px){
+    .card img{
+        height: 83px!important;
+    }
+
+    .flexcent img{
+    
+        height:80px!important;
+        width:80px!important;
+        
+    
+    }
+
+    
+}
+
+@media(max-width:339px){
+    .table{
+        text-align: left!important;
+    }
+}
